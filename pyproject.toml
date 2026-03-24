@@ -1,0 +1,22 @@
+[project]
+name = "slixclient"
+version = "0.1.0"
+description = "A CLI XMPP client for debugging XMPP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyxdg>=0.28",
+    "slixmpp>=1.12.0",
+]
+
+[project.scripts]
+slixclient = "kousu.slixclient:main"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+]
