@@ -71,5 +71,10 @@ Once you're in the menu has:
 - log on: enable debug logging (namely: YOU CAN SEE THE STANZAS)
 - log off: disable debug logging
 
-Since this is for debugging you SHOULD script complex interactions
-by adding new entries to the menu. Add new data structures as needed. Don't be shy. Save your versions
+## Scripting
+
+Since this is for debugging you SHOULD script complex interactions by **editing the code**. Edit `src/kousu/slixclient/slixclient.py`.
+[slixmpp](https://slixmpp.readthedocs.io/en/latest/) is pretty friendly; and for when it's too confusing, this code is all async
+so it's safe to pepper your code with `breakpoint()` and inspect the data structures.
+
+Add new entries to the menu. Add new data structures as needed. Don't be shy. Save your versions and share them.
