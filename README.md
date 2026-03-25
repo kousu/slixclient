@@ -40,7 +40,7 @@ or
 git clone git+https://github.com/kousu/slixclient
 cd slixclient
 python -m venv .venv
-.venv/bin/python -m install -e .
+.venv/bin/python -m pip install -e .
 .venv/bin/slixclient --help
 ```
 
