@@ -7,8 +7,6 @@ $ uv run slixclient test@kousu.ca
 Connecting to test@example.org.
 Logged in as 'test@example.org'
 > join testing@conference.example.org
-> log on
-> log off
 [2026-03-24-9715db4bcbbee278] testing@conference.example.org/kousu: Gajim message
 [2026-03-24-619a125547e29063] testing@conference.example.org/kousu: Gajim message (corrected)
 > reply 2026-03-24-9715db4bcbbee278 Reply from Slix
