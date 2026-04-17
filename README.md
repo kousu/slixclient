@@ -1,3 +1,7 @@
+> [!WARNING]
+> Moved to https://codeberg.org/kousu/slixclient
+
+
 # slixclient
 
 This is a small XMPP client for debugging XMPP.
